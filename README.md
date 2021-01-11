@@ -1,5 +1,5 @@
 # Mixed Messages
-This is a mixed death generator program. Every time a user runs the program, they should get a new, randomized output. The output consists in the way that the person who runned the program is going to die, with four pieces of data (who, how, where and when).
+This is a mixed death message generator program. Every time a user runs the program, they should get a new randomized output. The output consists in the way that the person who ran the program is going to die, with four pieces of data (who, how, where and when).
 
 
 ## Table of contents

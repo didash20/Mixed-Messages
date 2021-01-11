@@ -27,12 +27,11 @@ The purpose of this project is to take into practice the things I have learned o
 Use **Node.js** to run the program.
 
 ## Features
-No feature has been implemented yet
+* Measage data created and stored in arrays
+* Get the random data from different functions
+* Has a single function that returns any data group type
 
 To-do list:
-* Create script and run it locally
-* Store message components
-* Create the message
 * Put the program together
 
 ## Status

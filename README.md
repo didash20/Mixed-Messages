@@ -16,7 +16,10 @@ This is a mixed death message generator program. Every time a user runs the prog
 The purpose of this project is to take into practice the things I have learned of Javascript, Git and command line from the _Full-Stack Engineer Codecademy Career Path_.
 
 ## Screenshots
-![No Screenshots yet](./img/screenshot.png)
+
+### Output examples
+![Output Example 1](./img/output_example_1.jpg)
+![Output Example 2](./img/output_example_2.jpg)
 
 ## Technologies
 * Javascript - version ECMAScript 2018
@@ -24,16 +27,18 @@ The purpose of this project is to take into practice the things I have learned o
 * Command Line
 
 ## Setup
-Use **Node.js** to run the program.
+Use **Node.js** in the command line to run the program.
+
+```node main.js```
 
 ## Features
-* Measage data created and stored in arrays
+* Message data created and stored in arrays
 * Get the random data from different functions
 * Has a single function that returns any data group type
 * Returns 'How you will be dying message'
 
 ## Status
-Project is: _In development_
+Project is: _finished_
 
 ## Sources
 This app is inspired by the _Mixed Messages_ project from the _Full-Stack Engineer Career Path_ of [Codecademy](https://www.codecademy.com)

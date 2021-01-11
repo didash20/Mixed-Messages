@@ -31,7 +31,7 @@ const randomPlace = () => {
   const places = ['a forest','a volcano','the middle of the sea',
                   'your house','the sabana','a cave',
                   'a park','a hunted house','a graveyard',
-                  'a swimming pool','a abandoned building','a basement'];
+                  'a swimming pool','an abandoned building','a basement'];
 
   return places[randomNumber(places.length)];
 }

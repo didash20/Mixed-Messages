@@ -49,7 +49,7 @@ const randomTimeEvent = () => {
 
 // Returns a random string from the specified group
 const getRandom = data => {
-  switch(data.toUpperCase){
+  switch(data.toUpperCase()){
     case 'CREATURE': 
       return randomCreature();
 

@@ -28,10 +28,10 @@ const randomKillAction = () => {
 // Returns a random place
 const randomPlace = () => {
   // Array with places
-  const places = ['in a forest','in a volcano','in the middle of the sea',
-                  'in your house','in the sabana','in a cave',
-                  'in the moon','in a hunted hose','in a graveyard',
-                  'underground','in hell','in a basement'];
+  const places = ['a forest','a volcano','the middle of the sea',
+                  'your house','the sabana','a cave',
+                  'a park','a hunted house','a graveyard',
+                  'a swimming pool','a abandoned building','a basement'];
 
   return places[randomNumber(places.length)];
 }
@@ -42,7 +42,7 @@ const randomTimeEvent = () => {
   const time = ['in a couple of hours','next June','tonight',
               'soon enough','when you turn 100 years old','next winter',
               'in couple of weeks','when you least expect it','in 10 years from now',
-              'in the next couple of months','in 5...','not in any time soon'];
+              'in the next couple of months','in 5..','in any time soon'];
 
   return time[randomNumber(time.length)];
 }

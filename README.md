@@ -30,9 +30,7 @@ Use **Node.js** to run the program.
 * Measage data created and stored in arrays
 * Get the random data from different functions
 * Has a single function that returns any data group type
-
-To-do list:
-* Put the program together
+* Returns 'How you will be dying message'
 
 ## Status
 Project is: _In development_

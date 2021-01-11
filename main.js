@@ -66,3 +66,10 @@ const getRandom = data => {
       return randomNumber();
   }
 }
+
+// Create random death message
+const createDeathMessage = () => `You will be ${getRandom('kill action')} by ${getRandom('creature')}. 
+But don't worry, as it will happen ${getRandom('time event')}.
+Just be careful not getting anywhere near to ${getRandom('place')}.`;
+
+console.log(createDeathMessage())

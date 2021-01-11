@@ -1,4 +1,4 @@
-/* Functions declaration */
+/* Function declaration */
 
 // Returns random number
 const randomNumber = (max=12) => Math.floor( Math.random * max );
@@ -15,7 +15,7 @@ const randomCreature = () => {
 }
 
 // Returns a random kill action
-const randomCreature = () => {
+const randomKillAction = () => {
   // Array with all the kill actions
   const actions = [ 'dramatically possesed','eaten alive','smashed',
                     'eternally hunted','swallowed in one piece','slowly drained',
@@ -26,7 +26,7 @@ const randomCreature = () => {
 }
 
 // Returns a random place
-const randomCreature = () => {
+const randomPlace = () => {
   // Array with places
   const places = ['in a forest','in a volcano','in the middle of the sea',
                   'in your house','in the sabana','in a cave',
@@ -37,7 +37,7 @@ const randomCreature = () => {
 }
 
 // Returns a random time of event
-const randomCreature = () => {
+const randomTimeEvent = () => {
   // Array with time events
   const time = ['in a couple of hours','next June','tonight',
               'soon enough','when you turn 100 years old','next winter',
@@ -45,4 +45,24 @@ const randomCreature = () => {
               'in the next couple of months','in 5...','not in any time soon'];
 
   return time[randomNumber(time.length)];
+}
+
+// Returns a random string from the specified group
+const getRandom = data => {
+  switch(data.toUpperCase){
+    case 'CREATURE': 
+      return randomCreature();
+
+    case 'KILL ACTION': 
+      return  randomKillAction();
+
+    case 'PLACE': 
+      return randomPlace();
+
+    case 'TIME EVENT': 
+      return randomTimeEvent();
+
+    default:
+      return randomNumber();
+  }
 }

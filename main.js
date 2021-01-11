@@ -1,7 +1,7 @@
 /* Function declaration */
 
 // Returns random number
-const randomNumber = (max=12) => Math.floor( Math.random * max );
+const randomNumber = (max=12) => Math.floor( Math.random() * max );
 
 // Returns a random creature
 const randomCreature = () => {
